@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <center>
+        Por Favor proporciona información
+        <h:outputText value="&lt;br/&gt;" escape="false" />
+        <h:outputText value="&lt;br/&gt;" escape="false" />
+        <h:form style="text-align: center">
+            <h:outputText value="Nombre: " />
+            <h:inputText value="" />
+            <h:outputText value="&lt;br/&gt;" escape="false" />
+            <h:outputText value="&lt;br/&gt;" escape="false" />
+            <h:outputText value="Sueldo: " />
+            <h:inputText value="" />
+            <h:outputText value="&lt;br/&gt;" escape="false" />
+            <h:outputText value="&lt;br/&gt;" escape="false" />
+            <h:outputText value="Dias Trabajados: " />
+            <h:inputText value="" />
+            <h:outputText value="&lt;br/&gt;" escape="false" />
+            <h:outputText value="&lt;br/&gt;" escape="false" />
+            <h:outputText value="&lt;br/&gt;" escape="false" />
+            <h:outputText value="Idiomas Utilizados " style="text-align: center" />
+            <center>
+            <h:selectManyCheckbox value = "" > 
+                <f:selectItem itemValue = "" itemLabel = "Ingles" /> 
+                <f:selectItem itemValue = "" itemLabel = "Español" />
+                <f:selectItem itemValue = "" itemLabel = "Frances" />
+                <f:selectItem itemValue = "" itemLabel = "Aleman" />
+            </h:selectManyCheckbox>
+            
+            <h:commandButton value="Entrar" />    
+            </center>
+        </h:form>
+        
+        </center>
+    </h:body>
+</html>
+
